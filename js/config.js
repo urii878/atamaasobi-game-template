@@ -14,7 +14,7 @@ window.GAME_CONFIG = {
   ],
 
   canonicalUrl: "https://example.com/",
-  ogImage: "./assets/og-image.svg",
+  ogImage: "./assets/og-image.png",
 
   portalName: "アタマアソビ",
   portalUrl: "https://example.com/",
