@@ -17,7 +17,7 @@ window.GAME_CONFIG = {
   ogImage: "./assets/og-image.png",
 
   portalName: "アタマアソビ",
-  portalUrl: "https://example.com/",
+  portalUrl: "https://atama-asobi.vercel.app/",
 
   eyebrow: "無料・インストール不要",
 
