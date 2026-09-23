@@ -164,7 +164,8 @@
     [
       "portal-link-top",
       "portal-link-bottom",
-      "portal-link-footer"
+      "portal-link-footer",
+      "portal-link-result"
     ].forEach((id) => {
       const link = $(id);
 

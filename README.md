@@ -60,6 +60,13 @@ JavaScript読み込み後は、
 
 ---
 
+## 共通のアタマアソビへのリンク・ロゴ
+
+- ヘッダーのロゴは `assets/atama-asobi-logo.png` を使用します。ゲーム専用のfaviconとは別に維持してください。
+- 「ほかの無料ゲームも遊ぶ」案内カードはランキングの直上に配置します。
+- リザルト画面にも「アタマアソビへ」リンクを表示します。
+- ヘッダー・案内カード・フッター・リザルトのリンク先は `js/config.js` の `portalUrl` で共通管理します。初期値は `https://atama-asobi.vercel.app/` です。URL変更時は `index.html` の静的リンクも合わせて変更してください。
+
 ## 新作作成時の重要ルール
 
 `config.js` だけを書き換えて終わりにしないでください。
@@ -94,6 +101,7 @@ atamaasobi-game-template/
 │  ├─ ranking.js
 │  └─ game.js
 ├─ assets/
+│  ├─ atama-asobi-logo.png
 │  ├─ favicon.png
 │  └─ og-image.png
 ├─ privacy.html
@@ -135,7 +143,7 @@ keywords: [
   "箱入り娘 無料"
 ],
 canonicalUrl: "https://公開URL/",
-portalUrl: "https://アタマアソビのURL/"
+portalUrl: "https://atama-asobi.vercel.app/"
 ```
 
 遊び方・FAQ・ゲーム説明もそのゲーム用に変更してください。
